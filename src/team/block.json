@@ -1,0 +1,57 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "create-block/team",
+	"version": "0.1.0",
+	"title": "Team",
+	"category": "widgets",
+	"icon": "smiley",
+	"description": "Example block scaffolded with Create Block tool.",
+	"attributes": {
+		"nameColor": {
+			"type": "string"
+		},
+		"nameFontSize": {
+			"type": "number"
+		},
+		"titleColor": {
+			"type": "string"
+		},
+		"titleFontSize": {
+			"type": "number"
+		},
+		"contentBg": {
+			"type": "string",
+			"default": "#ffffff"
+		},
+		"imageBg": {
+			"type": "string",
+			"default": "#f3f3f3"
+		},
+		"imageHeight": {
+			"type": "number",
+			"default": 300
+		},
+		"ctaAlign": {
+			"type": "string",
+			"default": "center"
+		},
+		"ctaMargin": {
+			"type": "number",
+			"default": "left 0 right 0 top 0 bottom 0"
+		},
+		"style": {
+			"type": "string"
+		}
+	},
+	"example": {},
+	"supports": {
+		"html": false
+	},
+
+	"textdomain": "team",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css",
+	"viewScript": "file:./view.js"
+}
